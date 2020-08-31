@@ -3,6 +3,7 @@
 
 
 
+
 ## Assigned data
 Data frames below contain each data described below from downloaded project dataset files.  
 Refer to README in downloaded project dataset folder for a description of each data file.  
@@ -19,6 +20,7 @@ Refer to README in downloaded project dataset folder for a description of each d
 
 
 
+
 ## Merged data
 Data frames below are created by merging each following dataset.
 
@@ -30,10 +32,12 @@ Data frames below are created by merging each following dataset.
 
 
 
+
 ## Extracted data
 **Tidy_Data** is created by subsetting Merged_Data with subject, code, and mean and standard deviation for each measurement.
 
 
 
-## Final tidy data set
+
+## Final tidy data
 **Tidy_Data_Final** is created by subsetting and summarizing Tidy_Data with the average of each variable after groupped by subject and activity.
