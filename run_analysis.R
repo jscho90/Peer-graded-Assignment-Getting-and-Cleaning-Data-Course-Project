@@ -31,18 +31,18 @@ Tidy_Data$code <- activities[Tidy_Data$code, 2]
 
 # Appropriately labels the data set with descriptive variable names
 names(Tidy_Data)[2] = "activity"
-names(Tidy_Data)<-gsub("Acc", "Accelerometer", names(Tidy_Data))
-names(Tidy_Data)<-gsub("Gyro", "Gyroscope", names(Tidy_Data))
-names(Tidy_Data)<-gsub("BodyBody", "Body", names(Tidy_Data))
-names(Tidy_Data)<-gsub("Mag", "Magnitude", names(Tidy_Data))
-names(Tidy_Data)<-gsub("^t", "Time", names(Tidy_Data))
-names(Tidy_Data)<-gsub("^f", "Frequency", names(Tidy_Data))
-names(Tidy_Data)<-gsub("tBody", "TimeBody", names(Tidy_Data))
-names(Tidy_Data)<-gsub("-mean()", "Mean", names(Tidy_Data), ignore.case = TRUE)
-names(Tidy_Data)<-gsub("-std()", "STD", names(Tidy_Data), ignore.case = TRUE)
-names(Tidy_Data)<-gsub("-freq()", "Frequency", names(Tidy_Data), ignore.case = TRUE)
-names(Tidy_Data)<-gsub("angle", "Angle", names(Tidy_Data))
-names(Tidy_Data)<-gsub("gravity", "Gravity", names(Tidy_Data))
+names(Tidy_Data) <- gsub("Acc", "Accelerometer", names(Tidy_Data))
+names(Tidy_Data) <- gsub("Gyro", "Gyroscope", names(Tidy_Data))
+names(Tidy_Data) <- gsub("BodyBody", "Body", names(Tidy_Data))
+names(Tidy_Data) <- gsub("Mag", "Magnitude", names(Tidy_Data))
+names(Tidy_Data) <- gsub("^t", "Time", names(Tidy_Data))
+names(Tidy_Data) <- gsub("^f", "Frequency", names(Tidy_Data))
+names(Tidy_Data) <- gsub("tBody", "TimeBody", names(Tidy_Data))
+names(Tidy_Data) <- gsub("-mean()", "Mean", names(Tidy_Data), ignore.case = TRUE)
+names(Tidy_Data) <- gsub("-std()", "STD", names(Tidy_Data), ignore.case = TRUE)
+names(Tidy_Data) <- gsub("-freq()", "Frequency", names(Tidy_Data), ignore.case = TRUE)
+names(Tidy_Data) <- gsub("angle", "Angle", names(Tidy_Data))
+names(Tidy_Data) <- gsub("gravity", "Gravity", names(Tidy_Data))
 
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 Tidy_Data_Final <- Tidy_Data %>%
