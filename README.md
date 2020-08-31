@@ -20,7 +20,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 # About this R script
 R script file "run_analysis.R" contains a tidy data which was written in this following steps.
-1. Donloaded and upzipped the data file
+1. Downloaded and upzipped the data file
 2. Assigned all data to data frames
 3. Merged the training and the test sets to create one data set
 4. Extracted only the measurements on the mean and standard deviation for each measurement
